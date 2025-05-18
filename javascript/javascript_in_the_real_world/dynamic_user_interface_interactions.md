@@ -1,8 +1,8 @@
 ### Introduction
 
-JavaScript is a very powerful language. It is capable of creating complex web applications that work *everywhere*. But it is just as often used on a smaller scale. JavaScript is the glue that holds even less flashy websites together- it makes drop-downs drop down and image sliders slide.
+JavaScript is a very powerful language. It is capable of creating complex web applications that work _everywhere_. But it is just as often used on a smaller scale. JavaScript is the glue that holds even less flashy websites together- it makes drop-downs drop down and image sliders slide.
 
-Fortunately, at this point, you already have all the tools you need to make these items without resorting to using a bloated framework like Bootstrap. (Nothing against Bootstrap... you just do *not* need it! Good for you!)
+Fortunately, believe it or not, you already have all the tools you need to make these items without resorting to using a bloated framework like Bootstrap. (Nothing against Bootstrap... you just do _not_ need it! Good for you!)
 
 We aren't presenting any new content in this lesson - just giving you the chance to practice some of the techniques that you're going to be using on a daily basis as a JavaScript programmer.
 
@@ -48,7 +48,7 @@ Don't spend too much time worrying about getting your images to display at the c
 
 1. This one is a little more involved than the previous task, so think about how you would set up the different elements within the site.
 1. Set up a very wide `div` which will contain the individual "slides" of each image. By appropriately positioning that `div` inside a container `div` (which acts like a picture frame), you can choose which slide is visible at any given time.
-1. Once you have the slider positioned properly, build functions for "next" and "previous" which will advance to the next or previous slide accordingly. The transition *doesn't* need to be smooth or animated. Only make it switch to the correct slide.
+1. Once you have the slider positioned properly, build functions for "next" and "previous" which will advance to the next or previous slide accordingly. The transition _doesn't_ need to be smooth or animated. Only make it switch to the correct slide.
 1. Set up arrow buttons which activate those functions and play with cycling through the images.
 1. Add in some navigation dots at the bottom of the slides. Make a horizontal series of empty circles with CSS immediately below the slideshow. Each circle represents a slide, so whenever a new slide is activated, its corresponding circle gets filled in so you can tell where in the show you are. Make each circle link to that particular slide, so you can click on the circle and it will jump to that slide.
 1. Add a timeout which advances the slides every 5 seconds.
